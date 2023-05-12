@@ -641,7 +641,7 @@ nav div ul li a {
     font-weight: 600;
     font-size: 18px;
     color: #000000;
-    padding: 0px 0px 21px 0px;
+    padding: 12px;
 }
 
 .section-7-paragraph {
@@ -651,6 +651,7 @@ nav div ul li a {
     font-size: 18px;
     color: #000000;
     opacity: 0.7;
+    padding-left: 12px;
 }
 
 .max-100 {
@@ -691,6 +692,9 @@ nav div ul li a {
 }
 .mb-50{
     margin-bottom: 50px;
+}
+.mr-12{
+    margin-right: 12px;
 }
 .mt-8 {
     margin-top: 8px;
@@ -1020,44 +1024,7 @@ margin-bottom: 8px;
 }
 
 @media (max-width:360px) {
-    .timeline::after {
-        content: '';
-        position: absolute;
-        width: 7px;
-        height: 74%;
-        background-color: red;
-        top: 0;
-        bottom: 1;
-        left: 0%;
-        margin-left: 5px;
-
-    }
-
-    .box-1::after {
-        content: '';
-        position: absolute;
-        height: 27px;
-        width: 27px;
-        top: -2px;
-        border-radius: 50%;
-        left: -31px;
-        z-index: 1;
-        background-color: white;
-
-    }
-
-    .box-02::after {
-        content: '';
-        position: absolute;
-        height: 27px;
-        width: 27px;
-        top: -10px;
-        border-radius: 50%;
-        left: -31px;
-        z-index: 1;
-        background-color: #ffffff;
-    }
-    .arrow-position{
-        margin: 0px 0px 0px -20px;
+    .mr-12{
+        margin-right: 12px;
     }
 }
